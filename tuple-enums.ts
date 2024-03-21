@@ -21,11 +21,11 @@ enum seatChoice {
 
 const haSeat = seatChoice.window
 
-const enum login {
-    email = "h@h.com",
-    cnic = 123456789,
-    password,
+const enum userRole {
+    Admin = 'ADMIN',
+    User = 'USER',
+    Guest = 'GUEST'
 }
 
-const addUser = login.email
+
 export { }
